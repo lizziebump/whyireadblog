@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
+  font-family: Didot;
+  background-color: mintcream;
+}
+
+header {
+  max-width: 25rem;
+}
+
+h1{
+  color: orangered;
+}
