@@ -1,22 +1,67 @@
-* {
-  box-sizing: border-box;
+body {
+  font-family: 'Gill Sans', 'Helvetica', 'Arial', sans-serif;
+  background-color: #cb311d;
+  margin: 0;
 }
 
-html {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-  text-align: center;
-  font-family: Didot;
-  background-color: mintcream;
+.content {
+  background-color: white;
+  padding: 1em;
+  width: 45em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header {
-  max-width: 25rem;
+  text-align: center;
 }
 
-h1{
-  color: orangered;
+header h1 {
+  font-weight: normal;
+  font-size: 1.65em;
+  color: #cb311d;
+  margin: 0;
+}
+
+header h2 {
+  font-weight: 600;
+  font-size: 3.5em;
+}
+
+header p {
+  font-size: 1.65em;
+  width: 9em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+hr {
+  border: 0;
+  height: 0.5em;
+  width: 4em;
+  background-color: #cb311d;
+}
+
+article {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.publication-date {
+  text-align: center;
+  color: #cb311d;
+}
+
+article h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2em;
+}
+
+.blog-copy {
+  text-align: justify;
 }
