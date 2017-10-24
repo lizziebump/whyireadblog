@@ -1,0 +1,25 @@
+{
+  "name": "whyiread.blog",
+  "version": "1.0.0",
+  "description": "Why I Read is a blog dedicated to my love of books. It's an attempt to capture and bottle that post-story feeling so that I might be able to revisit it at a later point.",
+  "main": "index.js",
+  "scripts": {
+    "local": "serve .",
+    "deploy": "now",
+    "alias": "now alias"
+  },
+  "now": {
+    "alias": "whyiread.blog"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lizziebump/whyireadblog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lizziebump/whyireadblog/issues"
+  },
+  "homepage": "https://github.com/lizziebump/whyireadblog#readme"
+}
